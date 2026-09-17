@@ -1,0 +1,85 @@
+// color — set variables 1-3 to named RGB colors
+
+function red() {
+    var 1 = 255
+    var 2 = 0
+    var 3 = 0
+fi
+
+function green() {
+    var 1 = 0
+    var 2 = 200
+    var 3 = 0
+fi
+
+function blue() {
+    var 1 = 0
+    var 2 = 120
+    var 3 = 255
+fi
+
+function white() {
+    var 1 = 255
+    var 2 = 255
+    var 3 = 255
+fi
+
+function black() {
+    var 1 = 10
+    var 2 = 10
+    var 3 = 10
+fi
+
+function gray() {
+    var 1 = 128
+    var 2 = 128
+    var 3 = 128
+fi
+
+function yellow() {
+    var 1 = 255
+    var 2 = 220
+    var 3 = 0
+fi
+
+function cyan() {
+    var 1 = 0
+    var 2 = 230
+    var 3 = 230
+fi
+
+function magenta() {
+    var 1 = 255
+    var 2 = 0
+    var 3 = 200
+fi
+
+function orange() {
+    var 1 = 255
+    var 2 = 140
+    var 3 = 0
+fi
+
+function purple() {
+    var 1 = 130
+    var 2 = 0
+    var 3 = 200
+fi
+
+function pink() {
+    var 1 = 255
+    var 2 = 130
+    var 3 = 180
+fi
+
+function teal() {
+    var 1 = 0
+    var 2 = 150
+    var 3 = 140
+fi
+
+function lime() {
+    var 1 = 120
+    var 2 = 255
+    var 3 = 0
+fi
