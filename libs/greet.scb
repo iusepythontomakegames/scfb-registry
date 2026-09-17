@@ -1,0 +1,17 @@
+// greet — friendly messages
+
+function hello() {
+    print("hello, world!")
+fi
+
+function bye() {
+    print("goodbye! o7")
+fi
+
+function cheer() {
+    print("let's go!")
+fi
+
+function thanks() {
+    print("thanks!")
+fi
