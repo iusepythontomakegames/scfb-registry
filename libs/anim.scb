@@ -1,0 +1,25 @@
+// anim — draw any object, then jump .spin3d (or .spin2d for boxes)
+// Stop halts the loop. Angles live in vars 6, 7, 8.
+
+cvar 6
+cvar 7
+cvar 8
+var 6 = 0
+var 7 = 0
+var 8 = 0
+
+.spin3d
+    var 6 = var 6 + 3
+    var 7 = var 7 + 2
+    var 8 = var 8 + 1
+    rot type="object" {
+        X,Y,Z; var 6, var 7, var 8
+    }
+    jump .spin3d
+
+.spin2d
+    var 6 = var 6 + 5
+    rot type="box" {
+        X,Y; var 6, 0
+    }
+    jump .spin2d
