@@ -1,0 +1,76 @@
+// shapes — draw helpers
+// var 4 = size, var 5 = x, var 6 = y; color comes from vars 1-3 (RGB)
+
+function drawbox() {
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6
+        rgb; var 1, var 2, var 3
+    }
+fi
+
+function drawcube() {
+    draw type="object" {
+        width,height,depth; var 4, var 4, var 4
+        x,y; var 5, var 6
+        rgb; var 1, var 2, var 3
+    }
+fi
+
+function drawrow() {
+    // five boxes in a row starting at var 5, var 6
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5 + 40, var 6
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5 + 80, var 6
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5 + 120, var 6
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5 + 160, var 6
+        rgb; var 1, var 2, var 3
+    }
+fi
+
+function drawtower() {
+    // five boxes stacked upward starting at var 5, var 6
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6 - 40
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6 - 80
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6 - 120
+        rgb; var 1, var 2, var 3
+    }
+    draw type="box" {
+        width,height; var 4, var 4
+        x,y; var 5, var 6 - 160
+        rgb; var 1, var 2, var 3
+    }
+fi
