@@ -1,0 +1,16 @@
+// std — small helpers
+
+function line() {
+    print("--------------------------")
+fi
+
+function banner() {
+    print("==========================")
+fi
+
+function pause() {
+    // waits until the user types anything
+    input {
+        print("…")
+    fi
+fi
