@@ -1,0 +1,38 @@
+// math — SCFB basic library
+// conventions: input in var 1 (and var 2), result in var 9
+
+def pi 3.14159265358979
+def tau 6.28318530717959
+
+function sq() {
+    var 9 = var 1 * var 1
+fi
+
+function cube() {
+    var 9 = var 1 * var 1 * var 1
+fi
+
+function dbl() {
+    var 9 = var 1 + var 1
+fi
+
+function half() {
+    var 9 = var 1 / 2
+fi
+
+function neg() {
+    var 9 = 0 - var 1
+fi
+
+function inc() {
+    var 9 = var 1 + 1
+fi
+
+function dec() {
+    var 9 = var 1 - 1
+fi
+
+function hyp2() {
+    // var 1, var 2 legs -> var 9 = sum of squares
+    var 9 = (var 1 * var 1) + (var 2 * var 2)
+fi
