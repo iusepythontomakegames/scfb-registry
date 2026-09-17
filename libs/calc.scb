@@ -1,0 +1,21 @@
+// calc — var 1, var 2 in -> var 9 out
+
+function sum() {
+    var 9 = var 1 + var 2
+fi
+
+function diff() {
+    var 9 = var 1 - var 2
+fi
+
+function avg() {
+    var 9 = (var 1 + var 2) / 2
+fi
+
+function pct() {
+    var 9 = (var 1 * 100) / var 2
+fi
+
+function area() {
+    var 9 = var 1 * var 2
+fi
