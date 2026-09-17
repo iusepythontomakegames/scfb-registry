@@ -1,0 +1,23 @@
+// demo — a small scene; call scene()
+
+function scene() {
+    print("demo scene")
+    draw type="box" {
+        width,height; 120,120
+        x,y; 300,150
+        rgb; 255, 204, 0
+    }
+    draw type="box" {
+        width,height; 320,40
+        x,y; 340,300
+        rgb; 60, 160, 60
+    }
+    draw type="object" {
+        width,height,depth; 90,90,90
+        x,y; 580,150
+        rgb; 100,149,237
+    }
+    rot type="object" {
+        X,Y,Z; 20, 35, 0
+    }
+fi
