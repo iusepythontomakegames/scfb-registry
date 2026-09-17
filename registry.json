@@ -1,0 +1,23 @@
+{
+  "name": "scfb-registry",
+  "version": 1,
+  "updated": "2026-09-17",
+  "packages": [
+    {"name": "math",    "kind": "lib", "version": "1.0", "file": "libs/math.scb",   "desc": "sq/cube/dbl/half/neg/inc/dec/hyp2 + pi/tau — input var 1, result var 9"},
+    {"name": "color",   "kind": "lib", "version": "1.0", "file": "libs/color.scb",  "desc": "red/green/blue/white/black/gray/yellow/cyan/magenta/orange/purple/pink/teal/lime — set vars 1-3 to RGB"},
+    {"name": "shapes",  "kind": "lib", "version": "1.0", "file": "libs/shapes.scb", "desc": "drawbox/drawcube/drawrow/drawtower — var 4 size, var 5/6 x,y"},
+    {"name": "calc",    "kind": "lib", "version": "1.0", "file": "libs/calc.scb",   "desc": "sum/diff/avg/pct/area — vars 1,2 in, var 9 out"},
+    {"name": "std",     "kind": "lib", "version": "1.0", "file": "libs/std.scb",    "desc": "line/banner/pause small helpers"},
+    {"name": "greet",   "kind": "lib", "version": "1.0", "file": "libs/greet.scb",  "desc": "hello/bye/cheer/thanks message functions"},
+    {"name": "demo",    "kind": "lib", "version": "1.0", "file": "libs/demo.scb",   "desc": "scene() — draws a small demo scene"},
+    {"name": "anim",    "kind": "lib", "version": "1.0", "file": "libs/anim.scb",   "desc": ".spin3d/.spin2d checkpoints — jump to them for animation loops"},
+    {"name": "mathx",   "kind": "ext", "version": "1.0", "file": "ext/mathx.py",   "desc": "rnd/sqrt/sin/cos/tan/floor/ceil/round/abs/pow/min/max"},
+    {"name": "timex",   "kind": "ext", "version": "1.0", "file": "ext/timex.py",   "desc": "now/clock/delay/wait/year/month/day/hour/minute/second"},
+    {"name": "winx",    "kind": "ext", "version": "1.0", "file": "ext/winx.py",    "desc": "beep/msgbox/speak/clip — Windows extras"},
+    {"name": "filex",   "kind": "ext", "version": "1.0", "file": "ext/filex.py",   "desc": "read/write/append/exists/files"},
+    {"name": "sysx",    "kind": "ext", "version": "1.0", "file": "ext/sysx.py",    "desc": "os_name/machine/pyver/cores/ram/cwd"},
+    {"name": "canvasx", "kind": "ext", "version": "1.0", "file": "ext/canvasx.py", "desc": "moveto/spinby/setcolor/setsize/objs/drop on named objects"},
+    {"name": "textx",   "kind": "ext", "version": "1.0", "file": "ext/textx.py",   "desc": "upper/lower/length/part/rev/rep/banner"},
+    {"name": "netx",    "kind": "ext", "version": "1.0", "file": "ext/netx.py",    "desc": "fetch(url) — grab text from a URL"}
+  ]
+}
