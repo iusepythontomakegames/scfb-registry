@@ -1,7 +1,7 @@
 {
   "name": "scfb-registry",
   "version": 1,
-  "updated": "2026-09-17",
+  "updated": "2026-10-21",
   "packages": [
     {"name": "math",    "kind": "lib", "version": "1.0", "file": "libs/math.scb",   "desc": "sq/cube/dbl/half/neg/inc/dec/hyp2 + pi/tau — input var 1, result var 9"},
     {"name": "color",   "kind": "lib", "version": "1.0", "file": "libs/color.scb",  "desc": "red/green/blue/white/black/gray/yellow/cyan/magenta/orange/purple/pink/teal/lime — set vars 1-3 to RGB"},
@@ -12,6 +12,7 @@
     {"name": "demo",    "kind": "lib", "version": "1.0", "file": "libs/demo.scb",   "desc": "scene() — draws a small demo scene"},
     {"name": "anim",    "kind": "lib", "version": "1.0", "file": "libs/anim.scb",   "desc": ".spin3d/.spin2d checkpoints — jump to them for animation loops"},
     {"name": "mathx",   "kind": "ext", "version": "1.0", "file": "ext/mathx.py",   "desc": "rnd/sqrt/sin/cos/tan/floor/ceil/round/abs/pow/min/max"},
+    {"name": "win32",   "kind": "ext", "version": "1.0", "file": "ext/win32.py",  "desc": "w32box/w32beep/w32screen/w32mem/w32user/w32ver/w32ticks/w32regread/w32regwrite/w32call/w32callstr — raw win32/64 API's"},
     {"name": "timex",   "kind": "ext", "version": "1.0", "file": "ext/timex.py",   "desc": "now/clock/delay/wait/year/month/day/hour/minute/second"},
     {"name": "winx",    "kind": "ext", "version": "1.0", "file": "ext/winx.py",    "desc": "beep/msgbox/speak/clip — Windows extras"},
     {"name": "filex",   "kind": "ext", "version": "1.0", "file": "ext/filex.py",   "desc": "read/write/append/exists/files"},
